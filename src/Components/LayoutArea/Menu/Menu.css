@@ -1,0 +1,14 @@
+.Menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(5, 5, 5);
+    color: aliceblue;
+    margin-top: -25px;
+}
+
+a:hover {
+    color: rgb(221, 51, 51);
+}

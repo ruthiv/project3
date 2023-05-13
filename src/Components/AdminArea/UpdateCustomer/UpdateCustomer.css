@@ -1,0 +1,24 @@
+.UpdateCustomer {}
+
+.UpdateCustomer>.eye-icon {
+    position: absolute;
+    transform: translateX(-150%);
+    margin-top: 5px;
+    font-size: 18px;
+    color: #0c0c0c;
+}
+
+.UpdateCustomer>p {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.UpdateCustomer>label {
+    position: relative;
+    padding: 20px;
+}
+
+.UpdateCustomer>span {
+    color: red;
+    position: absolute;
+}

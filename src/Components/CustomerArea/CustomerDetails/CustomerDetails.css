@@ -1,0 +1,40 @@
+.CustomerDetails {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid rgb(9, 9, 9);
+	font-size: large;
+	border-radius: 10px;
+	padding: 40px;
+	margin: 15px auto;
+	box-shadow: 10px 10px 10px;
+	text-align: center;
+	width: 300px;
+	height: 200px;
+	background-color: #d6e8ee;
+	align-items: center;
+}
+
+button {
+	margin: 15px;
+}
+
+.ButtonCustomer {
+	position: absolute;
+	display: flex;
+	font-size: medium;
+	width: 100px;
+	align-items: center;
+	text-align: center;
+	margin-right: 200px;
+	margin-top: -30px;
+}
+
+.ButtonCustomer button {
+	color: rgb(193, 150, 64);
+	margin-right: 0px;
+	background-color: rgb(9, 9, 9);
+}
+
+.ButtonCustomer button:hover {
+	background-color: rgb(246, 241, 241);
+}

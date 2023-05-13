@@ -1,0 +1,22 @@
+.CompanyCard {
+	display: flex;
+    flex-direction: column;
+	border: 2px solid rgb(9, 9, 9);
+	font-size: large;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 15px auto;
+	box-shadow: 10px 10px 10px;
+	text-align: center;
+	width:250px;
+	height: 150px;
+	background-color:#d6e8ee;
+	align-items: center;
+	justify-content: flex-end;
+}
+.showMore{
+	width: 150px;
+	margin: 20px;
+
+}

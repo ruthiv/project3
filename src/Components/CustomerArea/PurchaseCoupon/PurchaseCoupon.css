@@ -1,0 +1,33 @@
+.PurchaseCoupon {
+	display: flex;
+	flex-direction: column;
+	border: 2px dashed black;
+	font-size: large;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: -15px;
+	margin: 20px auto;
+	box-shadow: 10px 10px 10px;
+	text-align: left;
+	width: 350px;
+	background-color: #d6e8ee;
+}
+
+.image {
+	width: 250px;
+}
+
+button {
+	margin: 15px;
+}
+
+#Purchase {
+	margin-right: auto;
+	margin-left: auto;
+	background-color: aliceblue;
+	color: rgb(204, 171, 79);
+}
+
+#Purchase:hover {
+	background-color: rgb(13, 13, 13);
+}

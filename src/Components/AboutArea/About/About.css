@@ -1,0 +1,21 @@
+.About {
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 20px;
+    margin: 20px;
+    gap: 100px;
+    background-color: rgb(230, 206, 183);
+}
+
+.specialPicture{
+    height: 400px;
+    width: 300px;
+}
+
+.specialAbout{
+  margin-right: 100px;
+  line-height: 150%;
+  font-size: larger;
+  font-style: italic;
+}

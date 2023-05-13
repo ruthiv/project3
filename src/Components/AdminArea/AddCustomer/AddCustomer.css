@@ -1,0 +1,29 @@
+.AddCustomer {}
+
+.AddCustomer>.eye-icon {
+    position: absolute;
+    transform: translateX(-150%);
+    font-size: 18px;
+    color: #0c0c0c;
+}
+
+.form-link {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.AddCustomer>p {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.AddCustomer>label {
+    position: relative;
+    padding: 20px;
+}
+
+.AddCustomer>span {
+    color: red;
+    position: absolute;
+}

@@ -1,0 +1,24 @@
+.UpdateCompany {}
+
+.UpdateCompany>.eye-icon {
+    position: absolute;
+    margin-top: 5px;
+    transform: translateX(-150%);
+    font-size: 18px;
+    color: #0c0c0c;
+}
+
+.UpdateCompany>p {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.UpdateCompany>label {
+    position: relative;
+    padding: 20px;
+}
+
+.UpdateCompany>span {
+    color: red;
+    position: absolute;
+}

@@ -1,0 +1,23 @@
+.CouponList {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: stretch;
+    gap: 20px;
+    margin: 0 auto;
+    flex-direction: column;
+}
+
+.coupons-list {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    gap: 20px;
+    margin: 0 auto;
+    flex-direction: row;
+}
+
+h2 {
+    display: flex;
+    margin-top: 40px;
+}

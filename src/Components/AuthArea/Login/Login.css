@@ -1,0 +1,55 @@
+/* .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    width: 50%;
+}
+
+.login select {
+width: 27%;
+margin: 10px 0;
+} */
+h1{
+    text-align: center;
+}
+.login> .eye-icon{
+    position: absolute;
+    top: 51%;
+    transform: translateX(-150%);
+    font-size: 18px;
+    color: #0c0c0c;
+}
+.form-link {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 400;
+}
+.forgot-pass {
+    position: absolute;
+    color: rgb(244, 244, 236);
+    margin-top: -35px;
+}
+.login> p{
+    position: absolute;
+    margin-top: 4px;
+} 
+
+.login> label{
+    position:relative;
+    padding: 20px;
+}
+.login> span {
+color: red;
+position: absolute;
+}
+
+.dropdownCheck{
+    font-size: xx-small;
+    /* margin-right: 240px; */
+}
+.dropdownCheck input {
+  width: 5%;
+  margin-top: 20px;
+}

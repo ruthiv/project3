@@ -1,0 +1,42 @@
+.AllCouponsForCustomer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.Filter {
+    gap: 20px;
+    flex-direction: row;
+    align-items: baseline;
+    position: absolute;
+    -ms-transform: translate(-20%, -20%);
+    transform: translate(-20%, -20%);
+    top: 30%;
+    display: flex;
+    margin-left: 20%;
+    overflow: auto;
+}
+
+label {
+    font-size: larger;
+}
+
+.AllCouponsForCustomer {
+    position: absolute;
+    top: 35%;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+.Filter>select,
+.Filter>input {
+    background-color: #d6e8ee;
+    border: 2px currentColor black;
+}
+
+.CouponList {
+    flex-direction: row;
+}

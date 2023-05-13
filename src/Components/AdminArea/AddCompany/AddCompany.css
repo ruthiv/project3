@@ -1,0 +1,30 @@
+.addCompany {}
+
+.addCompany>.eye-icon {
+    position: absolute;
+    transform: translateX(-150%);
+    padding-top: 5px;
+    font-size: 18px;
+    color: #0c0c0c;
+}
+
+.form-link {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.addCompany>p {
+    position: absolute;
+    margin-top: 4px;
+}
+
+.addCompany>label {
+    position: relative;
+    padding: 20px;
+}
+
+.addCompany>span {
+    color: red;
+    position: absolute;
+}

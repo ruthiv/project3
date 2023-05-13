@@ -1,0 +1,9 @@
+.UpdateCoupon {}
+
+#img {
+	width: 200px;
+}
+
+.UpdateCoupon>span {
+	color: red;
+}

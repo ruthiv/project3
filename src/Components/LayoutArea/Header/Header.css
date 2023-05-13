@@ -1,0 +1,38 @@
+.Header {
+    height: 100%;
+    align-items: baseline;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(8, 8, 8);
+    color: aliceblue;
+    padding: 0px;
+    margin-top: -40px;
+    align-items: flex-end;
+
+
+}
+
+a {
+    color: rgb(184, 150, 63);
+}
+
+h1 {
+    color: rgb(184, 150, 63);
+    text-decoration: none;
+    direction: none;
+    text-align: right;
+    margin: 10px;
+}
+
+.specialLogo {
+    height: 200px;
+    width: 200px;
+    margin: -20px;
+    margin-top: 40px;
+}
+
+#couponSystem {
+    padding-top: 40px;
+    color: rgb(184, 150, 63);
+}

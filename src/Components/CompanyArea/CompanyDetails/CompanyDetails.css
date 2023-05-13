@@ -1,0 +1,48 @@
+.CompanyDetails {
+	display: flex;
+	flex-direction: column;
+	border: 2px solid rgb(9, 9, 9);
+	font-size: large;
+	box-sizing: border-box;
+	border-radius: 10px;
+	padding: 30px;
+	margin: 15px auto;
+	box-shadow: 10px 10px 10px;
+	text-align: center;
+	width: 350px;
+	height: 250px;
+	background-color: #d6e8ee;
+	align-items: center;
+}
+
+button {
+	margin: 15px;
+}
+
+.Back {
+	margin-top: -20px;
+	margin-right: 700px;
+	width: 90px;
+
+}
+
+.ButtonCompany {
+	position: absolute;
+	display: flex;
+	font-size: medium;
+	width: 100px;
+	align-items: center;
+	text-align: center;
+	margin-right: 200px;
+	margin-top: -30px;
+}
+
+.ButtonCompany button {
+	color: rgb(193, 150, 64);
+	margin-right: 0px;
+	background-color: rgb(11, 11, 11);
+}
+
+.ButtonCompany button:hover {
+	background-color: rgb(246, 241, 241);
+}

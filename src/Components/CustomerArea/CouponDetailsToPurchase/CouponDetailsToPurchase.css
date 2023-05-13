@@ -1,0 +1,43 @@
+.CouponDetailsToPurchase {
+	display: flex;
+	flex-direction: column;
+	border: 2px dashed black;
+	font-size: large;
+	border-radius: 10px;
+	padding: 10px;
+	margin-top: -15px;
+	margin: 20px auto;
+	box-shadow: 10px 10px 10px;
+	text-align: left;
+	width: 350px;
+	background-color: #d6e8ee;
+	line-height: 20%;
+}
+
+.ToBack {
+	position: absolute;
+	display: flex;
+	margin-top: -20px;
+	right: 80%;
+	;
+	width: 100px;
+}
+
+button {
+	margin: 15px;
+}
+
+.Buy {
+	position: absolute;
+	display: flex;
+	font-size: medium;
+	margin: 6px 50px;
+	width: 20%;
+	text-align: center;
+	background-color: aliceblue;
+	color: rgb(204, 171, 79);
+}
+
+.Buy:hover {
+	background-color: rgb(13, 13, 13);
+}

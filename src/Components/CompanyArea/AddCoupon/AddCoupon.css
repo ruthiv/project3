@@ -1,0 +1,10 @@
+.AddCoupon {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:  0 auto;
+}
+
+.AddCoupon >span {
+    color: red;
+}
