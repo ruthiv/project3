@@ -18,15 +18,13 @@ class LoginService {
     public logout() {
         store.dispatch({ type: AuthActionType.Logout });
     }
-    public forgotPassword(email: string): Promise<AxiosResponse<string>> {
-        return axios.post(this.loginUrl + "forgot-password", { email });
-    }
+    // public forgotPassword(email: string): Promise<AxiosResponse<string>> {
+    //     return axios.post(this.loginUrl + "forgot-password", { email });
+    // }
 
-    public resetPassword(email: string): Promise<AxiosResponse<string>> {
-        return axios.post(this.loginUrl + "reset-password", { email });
-    }
-
-
+    // public resetPassword(email: string): Promise<AxiosResponse<string>> {
+    //     return axios.post(this.loginUrl + "reset-password", { email });
+    // }
 
 }
 
